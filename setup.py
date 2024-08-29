@@ -23,5 +23,8 @@ setuptools.setup(
     ],
     packages=setuptools.find_packages(),
     python_requires=">=3.7",
-    install_requires=["requests==2.26.0", "validators==0.18.2"],
+    install_requires=[
+        "requests",
+        "validators",
+    ],
 )
